@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+<body>
+<table border=1>
+<tr>
+<th rowspan=2> Sno</th>
+<th rowspan=2> Name</th>
+<th colspan=3> Marks</th>
+</tr>
+<tr>
+<th>CPP</th>
+<th>DBMS</th>
+<th>MERN</th>
+</tr>
+<tr>
+<td>101</td>
+<td>Pawan</td>
+<td>50</td>
+<td>70</td>
+<td>80</td>
+</tr>
+</table>
+</body>
+</html>
+
+

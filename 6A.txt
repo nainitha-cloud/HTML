@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Creative Internal & External JavaScript</title>
+  <script src="external.js"></script>
+
+  <!-- Internal JavaScript -->
+  <script>
+    function changeTheme() {
+      document.body.style.background = 
+        "linear-gradient(to right, #ffecd2, #fcb69f)";
+      document.getElementById("heading").style.color = "#333";
+      document.getElementById("heading").innerText = 
+        "Internal Script Changed Theme 🌈";
+    }
+  </script>
+
+  <style>
+    body {
+      text-align: center;
+      padding-top: 100px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      background-color: #6c63ff;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #5548c8;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="heading">Welcome to JS Magic ✨</h1>
+  <button onclick="changeTheme()">Run Internal Script</button>
+  <button onclick="showQuote()">Run External Script</button>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Working of Hyperlinks in HTML</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f8fa;
+      margin: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #34495e;
+    }
+    a {
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #d35400;
+    }
+    .link-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #27ae60;
+      color: white;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .link-button:hover {
+      background-color: #219150;
+    }
+    img {
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Exploring Hyperlinks in HTML</h1>
+
+  <!-- Text Hyperlink -->
+  <h2>1️⃣ Text Hyperlink</h2>
+  <p>
+    Learn more about web development from
+    <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>.
+  </p>
+
+  <!-- Button Styled Link -->
+  <h2>2️⃣ Button-style Hyperlink</h2>
+  <p>
+    <a href="https://developer.mozilla.org/" target="_blank" class="link-button">
+      Visit MDN Web Docs
+    </a>
+  </p>
+
+  <!-- Image Hyperlink -->
+  <h2>3️⃣ Image Hyperlink</h2>
+  <p>Click the image below to visit the Aditya Engineering College homepage:</p>
+  <a href="https://www.aec.edu.in/" target="_blank">
+    <img src="test.PNG" alt="AEC College Logo" width="120" height="120">
+  </a>
+
+</body>
+</html>

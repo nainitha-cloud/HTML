@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Model Demo</title>
+  <style>
+    body {
+      background: #e0f7fa;
+      font-family: Verdana, sans-serif;
+      text-align: center;
+      padding-top: 40px;
+    }
+    .box {
+      width: 250px;
+      height: 120px;
+      background: #ffefc1;   /* Content background */
+      padding: 15px;         /* Space inside */
+      border: 4px dashed #ff5722; /* Border style */
+      margin: 20px auto;     /* Outside space */
+      box-sizing: border-box; /* Include padding and border in total size */
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h2>CSS Box Model</h2>
+  <div class="box">
+    <strong>Content:</strong> Main text<br>
+    <strong>Padding:</strong> Inner space<br>
+    <strong>Border:</strong> Box edge<br>
+    <strong>Margin:</strong> Space outside
+  </div>
+</body>
+</html>
+

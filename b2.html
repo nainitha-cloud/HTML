@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clickable Profile Images</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f7;
+      padding: 40px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .profile-container {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin-top: 40px;
+    }
+    .profile {
+      text-align: center;
+    }
+    img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #3498db;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    p {
+      font-weight: 500;
+      color: #34495e;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Profile and My Friend’s Profile</h1>
+
+  <div class="profile-container">
+    <!-- Your Image -->
+    <div class="profile">
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+        <img src="my_photo.jpg" alt="My Profile">
+      </a>
+      <p>Click my photo to visit my profile</p>
+    </div>
+
+    <!-- Friend's Image -->
+    <div class="profile">
+      <a href="https://www.linkedin.com/in/friends-profile" target="_blank">
+        <img src="friend_photo.jpg" alt="Friend's Profile">
+      </a>
+      <p>Click my friend’s photo to visit their profile</p>
+    </div>
+  </div>
+
+</body>
+</html>

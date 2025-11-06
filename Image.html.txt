@@ -1,0 +1,46 @@
+Image.html
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+  <h2>Welcome to Our Site</h2>
+  <img src="people.jpeg" alt="Sample Image" width="600">
+</body>
+</html>
+Paragraph.html
+<!DOCTYPE html>
+<html>
+<body>
+  <h3 style="text-align:center;">About Us</h3>
+  <p style="padding:10px; text-align:justify;">
+    This website demonstrates HTML frames by dividing the page into three horizontal sections:
+    an image, a descriptive paragraph, and useful links. Frames allow multiple HTML documents
+    to appear in a single browser window.
+  </p>
+</body>
+</html>
+Links.html
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+  <h3>Useful Links</h3>
+  <ul style="list-style:none; padding:0;">
+    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+    <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+    <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+  </ul>
+</body>
+</html>
+Framesetdemo.html
+<!DOCTYPE html>
+<html>
+<frameset rows="30%,40%,30%">
+  <frame src="image.html" noresize>
+  <frame src="paragraph.html" noresize>
+  <frame src="links.html" noresize>
+  <noframes>
+    <body>
+      <p>This page uses frames, but your browser does not support them.</p>
+    </body>
+  </noframes>
+</frameset>
+</html>

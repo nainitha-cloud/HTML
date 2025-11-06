@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>frameset example</title>
+</head>
+<frameset rows="30%,50%,20%">
+<frame src="C:\Users\naini\Downloads\panda.jpg" name="frame1">
+<frame src="C:\Users\naini\Downloads\friends cartoon.jpg" name="frame2">
+<frame src="C:\Users\naini\Downloads\kitty.png" name="frame3">
+<noframes>
+<body>
+<p>this page uses frames but your browser does not support them.</p>
+</body>
+</noframes>
+</frameset>
+</html>

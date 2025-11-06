@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Different Types of Lists in HTML</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f9f9f9;
+      margin: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #34495e;
+    }
+    ul, ol, dl {
+      margin-left: 40px;
+    }
+    dt {
+      font-weight: bold;
+      color: #1abc9c;
+    }
+    dd {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Exploring HTML Lists</h1>
+
+  <!-- Ordered List -->
+  <h2>Ordered List</h2>
+  <ol type="A">
+    <li>Introduction to HTML</li>
+    <li>Basic Tags</li>
+    <li>Attributes</li>
+    <li>Lists</li>
+  </ol>
+
+  <!-- Unordered List -->
+  <h2>Unordered List</h2>
+  <ul style="list-style-type: square;">
+    <li>Notebook</li>
+    <li>Pen</li>
+    <li>Eraser</li>
+    <li>Scale</li>
+  </ul>
+
+  <!-- Nested List -->
+  <h2>Nested List</h2>
+  <ol type="1">
+    <li>Frontend Technologies
+      <ul style="list-style-type: circle;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </li>
+    <li>Backend Technologies
+      <ul style="list-style-type: disc;">
+        <li>Node.js</li>
+        <li>Python</li>
+        <li>PHP</li>
+      </ul>
+    </li>
+  </ol>
+
+  <!-- Ordered List inside Unordered List -->
+  <h2>Ordered List inside Unordered List</h2>
+  <ul style="list-style-type: disc;">
+    <li>Programming Languages
+      <ol type="i">
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+      </ol>
+    </li>
+    <li>Frameworks
+      <ol type="a">
+        <li>React</li>
+        <li>Angular</li>
+        <li>Django</li>
+      </ol>
+    </li>
+  </ul>
+
+  <!-- Definition List -->
+  <h2>Definition List</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language used to create web pages.</dd>
+    <dt>CSS</dt>
+    <dd>Style sheet language used for designing the layout of web pages.</dd>
+    <dt>JavaScript</dt>
+    <dd>Programming language used to make web pages interactive.</dd>
+  </dl>
+
+</body>
+</html>

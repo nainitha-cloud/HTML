@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+my profile
+</title>
+</head>
+<body>
+<b style="color:red;front-size:50px;">name:Nainitha</b><br>
+<p style="color:blue;front-size:50px;">rollno:25B61CS001</p>
+<img src="C:\Users\naini\Downloads\kitty.png" width="100"
+</body>
+</html>

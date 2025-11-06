@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Font and Text Properties</title>
+    <style>
+        .font-size {
+            font-size: 24px; /* Increases text size */
+        }
+        .font-weight {
+            font-weight: bold; /* Makes text bold */
+        }
+        .font-style {
+            font-style: italic; /* Makes text italic */
+        }
+        .text-decoration {
+            text-decoration: underline; /* Underlines the text */
+        }
+        .text-transform {
+            text-transform: uppercase; /* Converts text to uppercase */
+        }
+        .text-align {
+            text-align: center; /* Centers the text */
+        }
+    </style>
+
+</head>
+
+</html>
